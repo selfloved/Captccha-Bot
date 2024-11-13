@@ -1,0 +1,9 @@
+// Based On Specific-Server
+
+{
+    "verificationChannel": "",
+    "roles": {
+      "verifiedRole": "",
+      "adminRole": ""
+    }
+  }
