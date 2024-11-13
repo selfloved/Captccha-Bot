@@ -66,3 +66,44 @@ The main dependencies include:
 - **`discord.js`** - For interacting with the Discord API (^14.0.0)
 - **`canvas`** - Used for generating Captcha images (^2.11.2)
 - **`dotenvs`** - For managing environment variables securely (^10.0.0)
+
+
+The main dependencies include:
+
+- `discord.js` - For interacting with the Discord API (`^14.0.0`)
+- `canvas` - Used for generating Captcha images (`^2.11.2`)
+- `dotenv` - For managing environment variables securely (`^10.0.0`)
+
+### 2. Set Up Environment Variables
+
+1. In the root directory of the project, create a `.env` file to securely store sensitive information, like your Discord bot token. 
+
+2. Add the following line to your `.env` file:
+
+Replace `your_discord_bot_token` with the actual token of your Discord bot, which you can generate in the [Discord Developer Portal](https://discord.com/developers/applications).
+
+3. In the code, `process.env.DISCORD_TOKEN` will automatically retrieve this token when the bot runs, keeping it secure.
+
+### 3. Run the Bot
+
+Once dependencies are installed and your `.env` file is set up, you can start the bot by running: "node index.js"
+
+---
+
+## Getting Started
+
+1. **Invite Toolity to Your Server**: Follow the invite link to add Toolity to your server.
+2. **Setup**: Use `/setup` to initialize the bot for your server.
+3. **Config**: Use `/config` to view and customize configurations.
+
+---
+
+## Customizing Embed Colors
+
+Toolity allows for customized colors in each embed message. To change the color of any embed:
+
+1. Open the configuration file located at `config/settings.json`.
+2. Locate the section for `embedColors`, where you can define different colors (in hexadecimal format) for specific types of embed messages, such as:
+   - Verification messages
+   - Information messages
+   - Warning messages
