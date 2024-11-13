@@ -1,0 +1,14 @@
+// Based On Specific-Server
+
+{
+  "captchaLength": 6,
+  "captchaTimeout": 60,
+  "roles": {
+    "verifiedRole": "",
+    "verificationRole": "",
+    "adminRole": ""
+  },
+  "verificationChannel": "",
+  "logChannel": "",
+  "autoDeleteChannel": ""
+}
