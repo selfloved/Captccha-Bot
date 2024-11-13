@@ -53,7 +53,7 @@ An overview of the key files and folders in this project:
 
 ## Prerequisites
 
-### 1. Install Dependencies
+### Install Dependencies
 
 Toolity requires Node.js and npm. Ensure both are installed before proceeding.
 
@@ -63,6 +63,6 @@ To install all dependencies, run:
 npm install
 ```
 The main dependencies include:
-**`discord.js`** - For interacting with the Discord API (^14.0.0)
-**`canvass`** - Used for generating Captcha images (^2.11.2)
-**`dotenvs`** - For managing environment variables securely (^10.0.0)
+- **`discord.js`** - For interacting with the Discord API (^14.0.0)
+- **`canvas`** - Used for generating Captcha images (^2.11.2)
+- **`dotenvs`** - For managing environment variables securely (^10.0.0)
